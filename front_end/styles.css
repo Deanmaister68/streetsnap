@@ -1,0 +1,123 @@
+*{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+a{text-decoration: none;}
+body{
+  background-color: #ffffff;
+
+}
+
+header { 
+  background-color: rgb(82, 65, 110);
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 10px 100px;
+  
+
+   }
+
+#fotologo{
+  width: 90px;
+  margin-top: -05px;
+  margin-left: -80px;
+}
+#fotoprofile{
+  width: 57PX;
+   margin-left: 240px;
+  }
+#fotoprofile1{
+  margin-left: 54px;
+  width: 25px;
+  z-index: 1;
+  }
+#navigation a {
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  padding-left: 200px;
+  font-weight: 500;
+
+}
+#navigation{
+  margin-left: -99px;
+}
+#logo{
+margin-left: 15%;
+color: black;
+}
+.search_pool input{
+  margin-left: 210px;
+  border:solid 1px ;
+  width: 250px;
+  height: 30px;
+  border-radius: 25px;
+}
+#login{
+     padding: 10px;
+     margin-top: 29px;
+     margin-left: 1680px;
+     background-color: #4CAF50;
+     color: white;
+     border-radius: 5px;
+     font-size: 16px;
+     border: none;
+     z-index: 1;
+
+}
+#login-form{
+  margin-top: 55px;
+  margin-left: 1650px;
+  background-color: rgba(141, 59, 59, 0.718);
+  width: 250px;
+  height: 150px;
+  align-items: center;
+  border-radius: 10px;
+}
+.labellogin{
+  margin-left: 55px;
+}
+.inputlogin{
+margin-left: 30px;
+}
+#loginknop{
+  
+margin-left: 80px;
+}
+.post1{
+  margin-top: 50px;
+ margin-left: 155px;
+width: 2cqb;
+ background-color: #ffffff;
+ flex-basis: calc(50% - 50px); /* berekent de breedte van elk element als de helft van de container minus de marge */
+ margin: 5px;
+
+}
+#box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 800px;
+}
+
+
+#box1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -775px;
+  margin-left: 1000px;
+  width: 800px;
+}
+.post2{
+  margin-top: 88px;
+ left: 885px;
+  width: 2cqb;
+ background-color: #ffffff;
+ flex-basis: calc(40% - -40px); /* berekent de breedte van elk element als de helft van de container minus de marge */
+ margin: 5px;
+}
